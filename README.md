@@ -47,8 +47,7 @@ Topic Modelling algorithms
 + Running a python script end to end using Command Prompt
 
 ## Directory Tree
-
-
+![Directory](https://user-images.githubusercontent.com/53662495/136446217-bcb4c286-6b2b-4476-bba0-59acb023dc89.png)
 
 ## **Code Overview**
 1. Complete dataset is splitted into 90% for training and 10% for predicting unseen 
