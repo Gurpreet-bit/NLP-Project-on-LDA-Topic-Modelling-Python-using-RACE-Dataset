@@ -45,6 +45,11 @@ Topic Modelling algorithms
 + Popular topic modelling metric score known as Coherence Score
 + Predicting a set of topics and the dominant topic for each documents
 + Running a python script end to end using Command Prompt
+
+## Directory Tree
+
+
+
 ## **Code Overview**
 1. Complete dataset is splitted into 90% for training and 10% for predicting unseen 
 documents.
