@@ -99,11 +99,15 @@ python script
 + **Towards Data Science**: https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21
 + **RSREETech Youtube Chaannle**: https://www.youtube.com/watch?v=nNvPvvuPnGs
 
-## Badges
+## Licence
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+Copyright 2021 Gurpreet Kaur
+
+Licensed under the MIT Licence (the "License"); you may not use this file except in compliance with the License. 
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Authors
 
