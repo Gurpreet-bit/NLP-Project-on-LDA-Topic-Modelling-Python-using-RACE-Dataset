@@ -57,22 +57,6 @@ respectively and proceeded with 10 topics for both the algorithms.
 extracted and the number was found using Coherence Score.
 6. Topics distribution is analyzed using t-SNE algorithm and iterative tool using pyLDAvis.
 7. For unseen documents, topics were predicted using the above three algorithms.
-## **What You Can Learn**
-Understanding the problem statement
-
-+ How and what kind of text cleaning needs to be done
-+ What tokenization and lemmatization is
-+ Performing EDA on documents word and POS counts, most occurring words
-+ Types of vectorizer such as TF IDF and Countvectorizer
-+ Understanding the basic math and the working behind various Topic Modeling algorithms
-+ Implementation of Topic Modeling algorithms such as LSA(Latent Semantic Analysis), LDA(Latent Dirichlet Allocation), NMF(Non-Negative Matrix Factorization)
-+ Hyper parameter tuning using GridSearchCV
-+ Analyzing top words for topics and top topics for documents
-+ Distribution of topics over the entire corpus
-+ Visualizing distribution of topics using TSNE
-+ Visualizing top words in a topic using WordCloud
-+ Visualizing the distribution of topics and the occurrence and weightage of words using interactive tool which is pyLDAvis
-+ Comparing and checking the distribution of the topics using metrics such as Perplexity and Coherence Score
 ## **Project Takeaways**
 Understanding the problem statement
 + How and what kind of text cleaning needs to be done
