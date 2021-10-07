@@ -2,7 +2,8 @@
 ## **Desciption**
 With the advent of big data and Machine Learning along with Natural Language Processing, it has become the need of an hour to extract a certain topic or a collection of topics that the document is about. Think when you have to analyze or go through thousands of documents and categorize under 10 – 15 buckets. How tedious and boring will it be ?  Thanks to Topic Modeling where instead of manually going through numerous documents, with the help of Natural Language Processing and Text Mining, each document can be categorized under a certain topic.  Thus, we expect that logically related words will co-exist in the same document more frequently than words from different topics. For example, in a document about space, it is more possible to find words such as: planet, satellite, universe, galaxy, and asteroid. Whereas, in a document about the wildlife, it is more likely to find words such as: ecosystem, species, animal, and plant, landscape. A topic contains a cluster of words that frequently occurs together. A topic modeling can connect words with similar meanings and distinguish between uses of words with multiple meanings.  A sentence or a document is made up of numerous topics and each topic is made up of numerous words.
 ## **Demo**
-![Alt text](C:\Users\lenovo\OneDrive\Desktop\GITHUB\NLP Project on LDA Topic Modelling Python using RACE Dataset\Images\File 1.jpg?raw=true "Title")
+![Image 1](https://user-images.githubusercontent.com/53662495/136442500-71f24b42-e3d7-4fca-a4ef-65f02cc516b4.png)
+![Image 4](https://user-images.githubusercontent.com/53662495/136442615-9083eaa3-077c-4604-9a6d-fb1182bd2a4b.png)
 
 ## **Data Overview**
 The dataset has odd 25000 documents where words are of various nature such as 
@@ -23,19 +24,19 @@ Main Libraries used are
 + nltk for text cleaning and preprocessing
 + TSNE and pyLDAvis for visualization of topics
 ## **Approach**
-Topic EDA 
+**Topic EDA** 
 + Top Words within topics using Word Cloud
 + Topics distribution using t-SNE
 + Topics distribution and words importance within topics using interactive tool 
 pyLDAvis
 
-Documents Pre-processing 
+**Documents Pre-processing** 
 + Lowering all the words in documents and removing everything except alphabets.
 + Tokenizing each sentence and lemmatizing each word and storing in a list only if it is 
 not a stop word and length of a word is greater than 3 alphabets.
 + Joining the list to make a document and also keeping the lemmatized tokens for NMF 
 
-Topic Modelling.
+**Topic Modelling**
 + Transforming the above pre-processed documents using TF IDF and Count 
 Vectorizer depending on the chosen algorithm
 Topic Modelling algorithms 
@@ -60,6 +61,14 @@ respectively and proceeded with 10 topics for both the algorithms.
 extracted and the number was found using Coherence Score.
 6. Topics distribution is analyzed using t-SNE algorithm and iterative tool using pyLDAvis.
 7. For unseen documents, topics were predicted using the above three algorithms.
+## **Technologies Used**
+![Matplotlib](https://user-images.githubusercontent.com/53662495/136442660-be06666e-cb4a-431a-99b1-bc46164e8b98.jpg)
+![nltk](https://user-images.githubusercontent.com/53662495/136442738-b1583635-c85a-4b1b-ac1a-e69c6b2e8075.png)
+![Numpy](https://user-images.githubusercontent.com/53662495/136442772-ce799805-a166-4cbd-a14c-aae3cc797301.png)
+![Pandas](https://user-images.githubusercontent.com/53662495/136442817-3a31a0fb-d876-42fb-b302-99d47589046c.png)
+![Scikitlearn](https://user-images.githubusercontent.com/53662495/136442873-37510f77-71f2-4051-b946-965e8ecafab2.png)
+
+
 ## **Project Takeaways**
 Understanding the problem statement
 + How and what kind of text cleaning needs to be done
@@ -82,3 +91,16 @@ Perplexity and Coherence Score
 + Training and predicting the documents using LDA and NMF in a modular code using 
 python script
 
+## **Credits**
++ **Towards Data Science**: https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21
++ **RSREETech Youtube Chaannle**: https://www.youtube.com/watch?v=nNvPvvuPnGs
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+## Authors
+
+- [@Gurpreet-bit](https://github.com/Gurpreet-bit)
